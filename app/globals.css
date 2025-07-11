@@ -6,4 +6,16 @@
   --color-brand-light-cyan: #55ffff;
   --color-brand-blue: #0000aa;
   --color-brand-gray: #aaaaaa;
+
+  --font-size-root: 16px;
+}
+
+@media (max-width: 1360px) {
+  :root {
+    --font-size-root: 14px;
+  }
+}
+
+html {
+  font-size: var(--font-size-root);
 }
